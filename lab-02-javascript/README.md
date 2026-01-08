@@ -46,7 +46,13 @@
 <tr><td colspan="6">INTEGRANTES:
 <ul>
 <li>Vladimir Arturo Sulla Quispe - vsullaq@unsa.edu.pe</li>
-<li>GITHUB https://github.com/Vladimir2003-debug/PW2-LAB02 </li>
+</ul>
+</td>
+</<tr>
+<tr><td colspan="6">GITHUB:
+<ul>
+<li>https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-02-javascript
+</li>
 </ul>
 </td>
 </<tr>
