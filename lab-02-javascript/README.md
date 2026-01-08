@@ -43,6 +43,12 @@
     </ul>
 </td>
 </<tr>
+<tr><td colspan="6">DOCENTE:
+<ul>
+<li>Carlo Jose Luis Corrales Delgado - ccorrales@unsa.edu.pe</li>
+</ul>
+</td>
+</<tr>
 <tr><td colspan="6">INTEGRANTES:
 <ul>
 <li>Vladimir Arturo Sulla Quispe - vsullaq@unsa.edu.pe</li>

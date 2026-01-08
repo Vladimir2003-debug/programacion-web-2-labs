@@ -50,16 +50,23 @@
     </ul>
 </td>
 </<tr>
-<tr><td colspan="6">
-DOCENTE: 
-<li>Carlo Jose Luis Corrales Delgado</li>
-<br>
-INTEGRANTES:
+<tr><td colspan="6">DOCENTE:
+<ul>
+<li>Carlo Jose Luis Corrales Delgado - ccorrales@unsa.edu.pe</li>
+</ul>
+</td>
+</<tr>
+<tr><td colspan="6">INTEGRANTES:
 <ul>
 <li>Vladimir Arturo Sulla Quispe - vsullaq@unsa.edu.pe</li>
-<li>GITHUB https://github.com/Vladimir2003-debug/PW2-Lab03.git </li>
 </ul>
-
+</td>
+</<tr>
+<tr><td colspan="6">GITHUB:
+<ul>
+<li>https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-03-ajax-nodejs
+</li>
+</ul>
 </td>
 </<tr>
 </tdbody>
