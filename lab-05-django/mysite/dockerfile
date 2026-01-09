@@ -1,0 +1,22 @@
+FROM python:3.11-slim
+
+# Evita que Python genere archivos .pyc y asegura que los logs se vean en tiempo real
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Directorio de trabajo
+WORKDIR /app
+
+# Instalación de dependencias
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# Copiamos el resto del proyecto
+COPY . .
+
+# Copiamos el script de entrada y le damos permisos de ejecución
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# El entrypoint siempre se ejecuta al iniciar el contenedor
+ENTRYPOINT ["sh", "/entrypoint.sh"]
