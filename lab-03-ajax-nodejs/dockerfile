@@ -1,0 +1,39 @@
+# ---------------------------------------------------
+# Imagen base: Node.js LTS ligera
+# Usamos alpine para una imagen pequeña y segura
+# ---------------------------------------------------
+FROM node:20-alpine
+
+# ---------------------------------------------------
+# Directorio de trabajo dentro del contenedor
+# Todo lo que copiemos/ejecutemos será relativo a /app
+# ---------------------------------------------------
+WORKDIR /app
+
+# ---------------------------------------------------
+# Copiar package.json y package-lock.json primero
+# Esto permite aprovechar la cache de Docker para instalar dependencias
+# solo cuando cambian los archivos de dependencias
+# ---------------------------------------------------
+COPY package*.json ./
+
+# ---------------------------------------------------
+# Instalar dependencias del proyecto
+# ---------------------------------------------------
+RUN npm install
+
+# ---------------------------------------------------
+# Copiar el resto del proyecto al contenedor
+# ---------------------------------------------------
+COPY . .
+
+# ---------------------------------------------------
+# Exponer puerto 3000
+# Asegúrate de que tu app Node.js use este puerto
+# ---------------------------------------------------
+EXPOSE 3000
+
+# ---------------------------------------------------
+# Comando por defecto al iniciar el contenedor
+# ---------------------------------------------------
+CMD ["node", "index.js"]
