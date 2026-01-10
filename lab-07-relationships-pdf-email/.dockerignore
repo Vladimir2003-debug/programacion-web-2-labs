@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor / OS files
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+.env
+*.git
+
+# Django static / media
+staticfiles/
+media/

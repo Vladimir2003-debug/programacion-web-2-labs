@@ -72,3 +72,50 @@
 </tdbody>
 </table>
 
+## Ejecución de los ejercicios (Python Virtual Environment)
+
+Para garantizar que todos los ejercicios se ejecuten con las mismas dependencias y versiones de Python, este laboratorio utiliza un **entorno virtual (virtualenv)** llamado `env`.
+
+### 1. Crear el entorno virtual
+
+Nos ubicamos en la carpeta del laboratorio:
+
+```bash
+python -m venv env
+```
+
+Para activar el entorno virtual:
+
+#### Windows
+
+```bash
+env\Scripts\activate
+```
+
+#### Linux 
+
+```bash
+source env/bin/activate
+```
+
+Una vez activado se instala las librerias:
+
+```
+pip install -r requirements.txt
+```
+
+### Ejecucion de los ejercicios
+
+Para ejecutar los ejercicios escribimos python seguido del archivo que queremos ejecutar
+
+```
+python ejercicio1.py
+```
+
+### Salir del entorno
+
+Para salir del entorno virtual escribimos en la terminal:
+
+```
+deactivate
+```

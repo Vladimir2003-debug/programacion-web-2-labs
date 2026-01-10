@@ -1,0 +1,22 @@
+services:
+  web:
+    build: .
+    volumes:
+      - ./model_examples:/app  # Esto sincroniza los archivos .py creados por el entrypoint a tu PC
+    develop:
+      watch:
+        - action: sync
+          path: ./model_examples
+          target: /app
+          ignore:
+            - db.sqlite3
+            - __pycache__/
+        - action: rebuild
+          path: requirements.txt
+    environment:
+      - SUPER_USER_NAME=admin
+      - SUPER_USER_PASSWORD=1234
+      - SUPER_USER_EMAIL=admin@example.com
+    ports:
+      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
