@@ -105,13 +105,13 @@ Desarrollo de aplicaciones WEB usando tecnologías orientadas a objetos: Qué ha
     
 ## Laboratorios
 
-- [Lab 01 – Git, GitHub & CLI](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-01-git-github-cli)
+- [Lab 01 – Git, GitHub & CLI](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-01-vim-git-github)
 - [Lab 02 – JavaScript Fundamentals](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-02-javascript)
-- [Lab 03 – Node.js, Express & AJAX](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-03-node-express-ajax)
-- [Lab 04 – Python Fundamentals](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-04-python)
-- [Lab 05 – Django Web Framework](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-05-django)
+- [Lab 03 – Node.js, Express & AJAX](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-03-ajax-nodejs)
+- [Lab 04 – Python](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-04-python)
+- [Lab 05 – Django Framework](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-05-django)
 - [Lab 06 – Django 2: Authentication & CRUD](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-06-django-2)
-- [Lab 07 – Django 3: Relationships, PDF & Email](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-07-django-3-relationships-pdf-email)
+- [Lab 07 – Django 3: Relationships, PDF & Email](https://github.com/Vladimir2003-debug/programacion-web-2-labs/tree/main/lab-07-relationships-pdf-email)
 
 #
 
